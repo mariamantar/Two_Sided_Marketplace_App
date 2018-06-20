@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ratings: MyString
+  User: one
+  Profile: one
+
+two:
+  ratings: MyString
+  User: two
+  Profile: two

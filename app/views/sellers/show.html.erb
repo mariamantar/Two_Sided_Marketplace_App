@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Listings:</strong>
+  <%= @seller.listings %>
+</p>
+
+<p>
+  <strong>Ratings:</strong>
+  <%= @seller.ratings %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @seller.User %>
+</p>
+
+<%= link_to 'Edit', edit_seller_path(@seller) %> |
+<%= link_to 'Back', sellers_path %>
