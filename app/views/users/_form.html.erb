@@ -18,15 +18,15 @@
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.email_field :email %>
   </div>
 
   <div class="field">
-    <%= form.label :password_digest %>
-    <%= form.text_field :password_digest %>
+    <%= form.label :password %>
+    <%= form.password_field :password_digest %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="btn btn-primrary btn-lg">
+    <%= form.submit "Sign up" %>
   </div>
 <% end %>
